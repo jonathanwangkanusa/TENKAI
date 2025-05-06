@@ -1,0 +1,157 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #003f6c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Tentang Kami Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    color: #003f6c;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Visi dan Misi Section */
+#vision-mission {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+#vision-mission h2 {
+    font-size: 2.5em;
+    color: #003f6c;
+    margin-bottom: 20px;
+}
+
+#vision-mission .vision,
+#vision-mission .mission {
+    margin-bottom: 30px;
+}
+
+#vision-mission h3 {
+    font-size: 2em;
+    color: #003f6c;
+    margin-bottom: 10px;
+}
+
+#vision-mission ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#vision-mission li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Tim Kami Section */
+#team {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#team h2 {
+    font-size: 2.5em;
+    color: #003f6c;
+    margin-bottom: 20px;
+}
+
+#team p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Kontak Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    color: #003f6c;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #003f6c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    #vision-mission h2,
+    #about h2,
+    #team h2,
+    #contact h2 {
+        font-size: 2em;
+    }
+
+    #about p,
+    #contact p,
+    #team p {
+        font-size: 1em;
+    }
+}
